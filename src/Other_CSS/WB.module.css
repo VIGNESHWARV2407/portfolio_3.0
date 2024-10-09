@@ -1,0 +1,46 @@
+.typewriting
+{
+    padding: 20%;
+    position: relative;
+    background: url(galaxybg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+.content
+{
+    text-align: center;
+}
+
+.words 
+{
+    font-size: 60px;
+    color: white;
+}
+
+.arrow
+{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.to_down {
+    padding: 50px;
+    background: url(arrow.gif);
+    background-size: cover;
+
+}
+
+@media only screen and (max-width:768px)
+{
+    .typewriting
+    {
+        display: none;
+    }
+}
