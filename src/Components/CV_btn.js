@@ -1,6 +1,6 @@
 import React from 'react'
 
-const resume_cv="http://localhost:3000/viki_cv.pdf"; //url
+const resume_cv="http://localhost:3000/about_viki.pdf"; //url
 export default function CV_btn() {
     const download_cv=(url)=>
     {
@@ -16,7 +16,7 @@ export default function CV_btn() {
     <div>
       
       <div className='btn_cv'>
-        <a href='./viki_cv.pdf' id='cv_view' target='_blank'>View Resume</a>&nbsp;&nbsp;
+        <a href='./about_viki.pdf' id='cv_view' target='_blank'>View Resume</a>&nbsp;&nbsp;
         <a id='cv_btn' href="#" onClick={()=>{download_cv(resume_cv)}}>Download CV</a>
       </div>
     </div>
